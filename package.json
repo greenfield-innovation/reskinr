@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "server": "node ./node_modules/.bin/pouchdb-server -d db_local -c db_local/config.json",
+    "start": "node ./node_modules/.bin/pouchdb-server -d db_local -c db_local/config.json",
     "test": "karma start karma.conf.js --single-run"
   },
   "keywords": [
