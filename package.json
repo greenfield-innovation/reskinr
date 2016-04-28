@@ -9,10 +9,12 @@
     "lodash": "^4.6.1",
     "path": "^0.12.7",
     "pouchdb": "^5.3.1",
+    "pouchdb-server": "^1.1.1",
     "scss-to-json": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
+    "server": "node ./node_modules/.bin/pouchdb-server -d db_local -c db_local/config.json",
     "test": "karma start karma.conf.js --single-run"
   },
   "keywords": [

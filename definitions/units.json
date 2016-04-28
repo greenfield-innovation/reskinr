@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Units of length in CSS",
+  "properties": {
+    "units": {
+      "enum": [
+        '%',
+        'cm',
+        'em',
+        'ex',
+        'in'
+        'mm',
+        'pc',
+        'pt',
+        'px',
+        'rem',
+        'vh',
+        'vw',
+        'vmin'
+      ]
+    }
+  }
+
+}

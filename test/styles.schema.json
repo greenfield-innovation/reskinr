@@ -1,0 +1,378 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "$logo-filename": {
+      "type": "string",
+      "minLength": 45
+    },
+    "$logo-width": {
+      "description": "Logo width",
+      "type": "object",
+      "properties": {
+        "height": {
+          "type": "number"},
+        "units": {
+          "$ref": "#/units.json"
+        }
+      }
+    },
+    "$logo-height": {
+      "description": "Logo height",
+      "type": "object",
+      "properties": {
+        "height": {
+        "type": "number"},
+        "units": {
+          "$ref": "#/units.json"
+        }
+      }
+    },
+    "$body-bg": {
+      "description": "Background color",
+      "$ref": "#/definitions/rgba"
+    },
+    "$header-margin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$header-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$brando-box-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$thinking-base": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-submit-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$headings": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-background": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-border": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-select-border": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-select-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-option-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-select-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-option-border-bottom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-input-background": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-textarea-background": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-textarea-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-submit-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-h1": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-message": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$feedback-closer-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$message-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$message-arrow": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-background": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-border": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-buttons-uniform": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-inputs-border": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-select-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-inputbar-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-select-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-option-border-bottom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-inputs-background": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-p-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-closer-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$question-home": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-h1-qa": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-h1-twitter": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$twitter-handle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$home-h1-text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$sample-speech": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$sample-speech-light": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$sample-speech-img": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$sample-speech-img-light": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$howwatson-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$howwatson-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$how-d-block-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-button-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-button-bg-hover": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-button-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-button-color-hover": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-button-border": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$footer-logo-fill": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$personality-container": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$playlistHeader": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$playlistHighlight": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$player-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$player-tertiary-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$control-buttons-label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$control-button-fill": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$control-button-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$welcome-header-bg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$welcome-bg-1": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$welcome-bg-2": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$welcome-bg-3": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$welcome-watson-button": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$login-container": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$slider-icon-color": {
+      "type": "string",
+      "minLength": 1
+    },
+    "$qa-color-dark": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "$logo-filename",
+    "$logo-width",
+    "$logo-height",
+    "$body-bg",
+    "$header-margin",
+    "$header-bg",
+    "$brando-box-color",
+    "$thinking-base",
+    "$home-submit-bg",
+    "$headings",
+    "$feedback-background",
+    "$feedback-border",
+    "$feedback-select-border",
+    "$feedback-select-bg",
+    "$feedback-option-bg",
+    "$feedback-select-color",
+    "$feedback-option-border-bottom",
+    "$feedback-input-background",
+    "$feedback-textarea-background",
+    "$feedback-textarea-color",
+    "$feedback-submit-bg",
+    "$feedback-h1",
+    "$feedback-message",
+    "$feedback-closer-color",
+    "$message-color",
+    "$message-arrow",
+    "$home-background",
+    "$home-border",
+    "$home-buttons-uniform",
+    "$home-inputs-border",
+    "$home-select-bg",
+    "$home-inputbar-bg",
+    "$home-select-color",
+    "$home-option-border-bottom",
+    "$home-inputs-background",
+    "$home-p-color",
+    "$home-closer-color",
+    "$question-home",
+    "$home-h1-qa",
+    "$home-h1-twitter",
+    "$twitter-handle",
+    "$home-h1-text",
+    "$sample-speech",
+    "$sample-speech-light",
+    "$sample-speech-img",
+    "$sample-speech-img-light",
+    "$howwatson-bg",
+    "$howwatson-color",
+    "$how-d-block-bg",
+    "$footer-button-bg",
+    "$footer-button-bg-hover",
+    "$footer-button-color",
+    "$footer-button-color-hover",
+    "$footer-button-border",
+    "$footer-logo-fill",
+    "$personality-container",
+    "$playlistHeader",
+    "$playlistHighlight",
+    "$player-bg",
+    "$player-tertiary-bg",
+    "$control-buttons-label",
+    "$control-button-fill",
+    "$control-button-bg",
+    "$welcome-header-bg",
+    "$welcome-bg-1",
+    "$welcome-bg-2",
+    "$welcome-bg-3",
+    "$welcome-watson-button",
+    "$login-container",
+    "$slider-icon-color",
+    "$qa-color-dark"
+  ]
+}

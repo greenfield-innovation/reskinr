@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "A Web position or size indicator, in top, right, bottom, left and units. Due to 'shorthand', we these are expressed as ordinal positions here.",
+  "type": "object",
+  "properties": {
+    "first": {
+      "type": "number",
+      "required": true
+    },
+    "second": {
+      "type": "number"
+    },
+    "third": {
+      "type": "number"
+    },
+    "fourth": {
+      "type": "number"
+    },
+    "units": {
+      "$ref": "#/units.json",
+      "required": false
+    }
+  }
+}
+
